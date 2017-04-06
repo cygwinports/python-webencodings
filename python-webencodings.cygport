@@ -1,0 +1,15 @@
+inherit python-wheel
+
+NAME="python-webencodings"
+VERSION=0.5.1
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Python implementation of WHATWG Encoding standard"
+DESCRIPTION="In order to be compatible with legacy web content, tools need to
+use a particular set of aliases for encoding labels as well as some overriding
+rules. For example, US-ASCII and iso-8859-1 on the web are actually aliases for
+windows-1252, and an UTF-8 or UTF-16 BOM takes precedence over any other
+encoding declaration. The Encoding standard defines all such details so that
+implementations do not have to reverse-engineer each other."
+
+ARCH=noarch
