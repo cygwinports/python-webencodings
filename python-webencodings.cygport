@@ -2,7 +2,7 @@ inherit python-wheel
 
 NAME="python-webencodings"
 VERSION=0.5.1
-RELEASE=1
+RELEASE=2
 CATEGORY="Python"
 SUMMARY="Python implementation of WHATWG Encoding standard"
 DESCRIPTION="In order to be compatible with legacy web content, tools need to
